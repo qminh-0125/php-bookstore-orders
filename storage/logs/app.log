@@ -1,0 +1,46 @@
+# Mini Bookstore Order DB App System Log
+[13-Jul-2026 16:55:17 UTC] PHP Fatal error:  Uncaught PDOException: could not find driver in D:\IT\PHP CODE\Lab5 - Requirement\app\Core\Database.php:29
+Stack trace:
+#0 D:\IT\PHP CODE\Lab5 - Requirement\app\Core\Database.php(29): PDO->__construct()
+#1 D:\IT\PHP CODE\Lab5 - Requirement\app\Controllers\BookLeadController.php(14): Database->__construct()
+#2 D:\IT\PHP CODE\Lab5 - Requirement\app\Controllers\BookLeadController.php(30): BookLeadController->repository()
+#3 D:\IT\PHP CODE\Lab5 - Requirement\app\Core\Router.php(45): BookLeadController->index()
+#4 D:\IT\PHP CODE\Lab5 - Requirement\public\index.php(72): Router->dispatch()
+#5 {main}
+  thrown in D:\IT\PHP CODE\Lab5 - Requirement\app\Core\Database.php on line 29
+[13-Jul-2026 16:55:20 UTC] PHP Fatal error:  Uncaught PDOException: could not find driver in D:\IT\PHP CODE\Lab5 - Requirement\app\Core\Database.php:29
+Stack trace:
+#0 D:\IT\PHP CODE\Lab5 - Requirement\app\Core\Database.php(29): PDO->__construct()
+#1 D:\IT\PHP CODE\Lab5 - Requirement\app\Controllers\BookLeadController.php(14): Database->__construct()
+#2 D:\IT\PHP CODE\Lab5 - Requirement\app\Controllers\BookLeadController.php(30): BookLeadController->repository()
+#3 D:\IT\PHP CODE\Lab5 - Requirement\app\Core\Router.php(45): BookLeadController->index()
+#4 D:\IT\PHP CODE\Lab5 - Requirement\public\index.php(72): Router->dispatch()
+#5 {main}
+  thrown in D:\IT\PHP CODE\Lab5 - Requirement\app\Core\Database.php on line 29
+[13-Jul-2026 16:55:29 UTC] PHP Fatal error:  Uncaught PDOException: could not find driver in D:\IT\PHP CODE\Lab5 - Requirement\app\Core\Database.php:29
+Stack trace:
+#0 D:\IT\PHP CODE\Lab5 - Requirement\app\Core\Database.php(29): PDO->__construct()
+#1 D:\IT\PHP CODE\Lab5 - Requirement\app\Controllers\BookLeadController.php(14): Database->__construct()
+#2 D:\IT\PHP CODE\Lab5 - Requirement\app\Controllers\BookLeadController.php(30): BookLeadController->repository()
+#3 D:\IT\PHP CODE\Lab5 - Requirement\app\Core\Router.php(45): BookLeadController->index()
+#4 D:\IT\PHP CODE\Lab5 - Requirement\public\index.php(72): Router->dispatch()
+#5 {main}
+  thrown in D:\IT\PHP CODE\Lab5 - Requirement\app\Core\Database.php on line 29
+[13-Jul-2026 16:55:50 UTC] PHP Fatal error:  Uncaught PDOException: could not find driver in D:\IT\PHP CODE\Lab5 - Requirement\app\Core\Database.php:29
+Stack trace:
+#0 D:\IT\PHP CODE\Lab5 - Requirement\app\Core\Database.php(29): PDO->__construct()
+#1 D:\IT\PHP CODE\Lab5 - Requirement\app\Controllers\BookLeadController.php(14): Database->__construct()
+#2 D:\IT\PHP CODE\Lab5 - Requirement\app\Controllers\BookLeadController.php(30): BookLeadController->repository()
+#3 D:\IT\PHP CODE\Lab5 - Requirement\app\Core\Router.php(45): BookLeadController->index()
+#4 D:\IT\PHP CODE\Lab5 - Requirement\public\index.php(72): Router->dispatch()
+#5 {main}
+  thrown in D:\IT\PHP CODE\Lab5 - Requirement\app\Core\Database.php on line 29
+[13-Jul-2026 22:13:37 UTC] PHP Fatal error:  Uncaught PDOException: could not find driver in D:\IT\PHP CODE\Lab5 - Requirement\app\Core\Database.php:23
+Stack trace:
+#0 D:\IT\PHP CODE\Lab5 - Requirement\app\Core\Database.php(23): PDO->__construct()
+#1 D:\IT\PHP CODE\Lab5 - Requirement\app\Controllers\BookLeadController.php(9): Database->__construct()
+#2 D:\IT\PHP CODE\Lab5 - Requirement\app\Controllers\BookLeadController.php(23): BookLeadController->repository()
+#3 D:\IT\PHP CODE\Lab5 - Requirement\app\Core\Router.php(26): BookLeadController->index()
+#4 D:\IT\PHP CODE\Lab5 - Requirement\public\index.php(72): Router->dispatch()
+#5 {main}
+  thrown in D:\IT\PHP CODE\Lab5 - Requirement\app\Core\Database.php on line 23
